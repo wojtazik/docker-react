@@ -15,7 +15,7 @@ deploy:
     bucket_path: "test.docker-react"
     branches:
       only:
-        - /^QP-[0-9]+-.*$/
+        - /^feature-.*$/
     acces_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
   -
