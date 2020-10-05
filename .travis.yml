@@ -23,7 +23,8 @@ deploy:
     bucket_name: "elasticbeanstalk-eu-central-1-721189591237"
     bucket_path: "test.docker-react"
     on:
-      all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^(feature-)$
+      branches:
+        only:
+          - /^feature-.*$/
     acces_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
