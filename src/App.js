@@ -10,6 +10,9 @@ function App() {
         <p>
           Edit sad 34112412a sd<code>src/App.js</code> and save to reload.
         </p>
+        <h3>
+          FICZER
+        </h3>
         <a
           className="App-link"
           href="https://reactjs.org"
